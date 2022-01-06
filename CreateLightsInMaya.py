@@ -13,7 +13,7 @@
 import maya.cmds as cmds
 import sys
 
-with open('/mnt/d/001Graduate/lightpos.txt', 'r') as f:
+with open('d:\******\******.txt', 'r') as f:
     for line in f:
         index, info = line.split(';')
 

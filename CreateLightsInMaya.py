@@ -30,6 +30,8 @@ with open('d:\******\******.txt', 'r') as f:
         y *= 100
         z *= 100
         
-        cmds.pointLight(n=num, pos=[x,y,z], i=intensity)
+        object=cmds.pointLight(n=num, pos=[x,y,z], i=intensity)
+#         set Arnold Exposure to 5
+        cmds.setAttr("{}.{}".format(object, 'aiExposure'), 5)
 
         

@@ -1,3 +1,10 @@
+# select the attribute, you will find it's name in script editor
+# set attr_name 
+# set val you want to use
+# select all the items you want to change the attribute
+# run the script
+
+
 import maya.cmds as cmds
 
 def change_attr(attr_name, val):
